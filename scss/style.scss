@@ -3,11 +3,24 @@
 @import 'bootstrap/mixins';
 
 $font-primary: 'Poppins',Arial, sans-serif;
-$primary: #d62196;
+$primary: #0d6305;
 
 
 @mixin gradient-background(){
-	background: rgba(127,39,156,1);
+	background: #003300;//rgba(127,39,156,1);
+	background: -moz-linear-gradient(-45deg, #003300 0%, #663300 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, #003300), color-stop(100%, #663300));
+	background: -webkit-linear-gradient(-45deg, #003300 0%, #663300 100%);
+	background: -o-linear-gradient(-45deg, #003300 0%, #663300 100%);
+	background: -ms-linear-gradient(-45deg, #003300 0%, #663300 100%);
+	background: linear-gradient(135deg, #003300 0%, #663300 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f279c', endColorstr='#2e279d', GradientType=1 );
+}
+
+
+/*
+@mixin gradient-background(){
+	background: #003300;//rgba(127,39,156,1);
 	background: -moz-linear-gradient(-45deg, rgba(127,39,156,1) 0%, rgba(46,39,157,1) 100%);
 	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(127,39,156,1)), color-stop(100%, rgba(46,39,157,1)));
 	background: -webkit-linear-gradient(-45deg, rgba(127,39,156,1) 0%, rgba(46,39,157,1) 100%);
@@ -16,6 +29,8 @@ $primary: #d62196;
 	background: linear-gradient(135deg, rgba(127,39,156,1) 0%, rgba(46,39,157,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f279c', endColorstr='#2e279d', GradientType=1 );
 }
+*/
+
 
 body{
 	font-family: $font-primary;

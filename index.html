@@ -66,7 +66,7 @@ html {
 }
 .navbar-nav li a{
         font-size: 22px;
-        color: #d94f5c;
+        color: #16810c; /* #d94f5c; */
         text-decoration: none;
         transition: all 0.45s;
         text-align: center;
@@ -80,7 +80,7 @@ html {
  }
 
 .navbar-nav li:hover a {
-    color: #d94f5c;
+    color: #d94f5c; 
     padding-left: 0px;
   padding-right: 0px;
   }
@@ -102,18 +102,18 @@ html {
 <body>
     <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"-->
     <div class="w3-bar w3-black w3-hide-small">
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
-        <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+        <a href="https://ro-ro.facebook.com/" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.snapchat.com/" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+        <a href="https://ro.pinterest.com/" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+        <a href="https://twitter.com/i/flow/login" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/gila-roxana-vasile-311976234/" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.google.com/" target="_blank" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
       </div>
     
-<nav class="navbar navbar-expand-sm bg-light" background="#1c1d22">
+<nav class="navbar navbar-expand-sm bg-light"> <!--"#1c1d22"-->
 <div class="container-fluid">
-    <a class="navbar-brand" href="home.html">LifeAsGila</a>
+    <a class="navbar-brand" href="home.html" target="iframe">LifeAsGila</a>
     <ul class="navbar-nav">
         <li class="nav-item">
             <a class="nav-link" href="home.html" target="iframe">DESPRE</a></li>
@@ -126,6 +126,7 @@ html {
         <li class="nav-item">
             <a class="nav-link" href="contact10.html" target="iframe">CONTACT</a></li>
     </ul>
+    <form class="d-flex"> <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search"> <button class="btn btn-outline-success" type="submit">Search</button> </form>
 </div>
 </nav>
         <iframe src="home.html" name="iframe" title="Iframe"></iframe>

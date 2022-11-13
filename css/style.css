@@ -2072,8 +2072,8 @@ fieldset:disabled a.btn {
   pointer-events: none; }
 
 .btn-primary {
-  color: #fff;
-  background-color: #007bff;
+  color: #093a04;
+  background-color: #093a04;
   border-color: #007bff; }
   .btn-primary:hover {
     color: #fff;
@@ -8215,19 +8215,32 @@ textarea.form-control {
   box-shadow: 0px 21px 41px -13px rgba(0, 0, 0, 0.18); }
 
   .contact-wrap {
-    background: #ff66ff;/*#7f279c;*/
-    background: -moz-linear-gradient(-45deg,#660066 0%, #9900ff 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, #660066), color-stop(100%, #9900ff));
-    background: -webkit-linear-gradient(-45deg, #660066 0%, #9900ff 100%);
-    background: -o-linear-gradient(-45deg,#660066 0%, #9900ff 100%);
-    background: -ms-linear-gradient(-45deg, #660066 0%, #9900ff 100%);
-    background: -webkit-linear-gradient(315deg, #660066 0%, #9900ff  100%);
-    background: -o-linear-gradient(315deg, #660066 0%, #9900ff  100%);
-    background: linear-gradient(135deg, #660066 0%, #9900ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#660066', endColorstr='#9900ff', GradientType=1 ); }
+    background: #003300;/*#7f279c;*/
+    background: -moz-linear-gradient(-45deg,#003300 0%, #663300 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #003300), color-stop(100%, #663300));
+    background: -webkit-linear-gradient(-45deg, #003300 0%, #663300 100%);
+    background: -o-linear-gradient(-45deg,#003300 0%, #663300 100%);
+    background: -ms-linear-gradient(-45deg, #003300 0%, #663300 100%);
+    background: -webkit-linear-gradient(315deg, #003300 0%, #663300 100%);
+    background: -o-linear-gradient(315deg, #003300 0%, #663300 100%);
+    background: linear-gradient(135deg, #003300 0%, #663300 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003300', endColorstr='#663300', GradientType=1 ); }
     .contact-wrap h3 {
       color: #fff; }
   /*f
+
+@mixin gradient-background(){
+	background: #003300;//rgba(127,39,156,1);
+	background: -moz-linear-gradient(-45deg, #003300 0%, #663300 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, #003300), color-stop(100%, #663300));
+	background: -webkit-linear-gradient(-45deg, #003300 0%, #663300 100%);
+	background: -o-linear-gradient(-45deg, #003300 0%, #663300 100%);
+	background: -ms-linear-gradient(-45deg, #003300 0%, #663300 100%);
+	background: linear-gradient(135deg, #003300 0%, #663300 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f279c', endColorstr='#2e279d', GradientType=1 );
+}
+
+
 .contact-wrap {
   background: red;/*#7f279c;
   background: -moz-linear-gradient(-45deg, #7f279c 0%, #2e279d 100%);
@@ -8251,7 +8264,7 @@ textarea.form-control {
     left: 0;
     width: 60px;
     height: 3px;
-    background: #d62196;
+    background: #15400d /*#d62196*/;
     content: ''; }
 
 .info-wrap .dbox {
@@ -8277,6 +8290,8 @@ textarea.form-control {
   .info-wrap .dbox .text {
     width: calc(100% - 50px); }
 
+
+    /* cauta aici butonu roz*/
 .btn {
   padding: 12px 16px;
   cursor: pointer;
@@ -8303,12 +8318,12 @@ textarea.form-control {
     -moz-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.22) !important;
     box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.22) !important; }
   .btn.btn-primary {
-    background: #d62196 !important;
-    border-color: #d62196 !important;
+    background: #15400d /*#d62196*/ !important;
+    border-color: #1f0e04 /*#d62196*/ !important;
     color: #fff; }
     .btn.btn-primary:hover, .btn.btn-primary:focus {
-      border-color: #aa1a77 !important;
-      background: #aa1a77 !important; }
+      border-color: #33cc33  /* #aa1a77*/ !important;
+      background: #33cc33/* #aa1a77 */!important; }
 
 .contactForm .form-control {
   border: none;
